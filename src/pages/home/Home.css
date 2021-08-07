@@ -1,3 +1,8 @@
-img{
+.home-banner{
+    background-image: url(../../assets/images/home-baner-bg.png);
+    background-size: 100%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}img{
     max-width: 100%;
 }

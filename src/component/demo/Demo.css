@@ -1,0 +1,6 @@
+.demo{
+    background-image: url(../../assets/images/demo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

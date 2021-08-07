@@ -1,3 +1,9 @@
+.footer{
+    background-image: url(../../assets/images/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .bg-black{
-    background: #000;
+    background:#1d1d1d;
 }

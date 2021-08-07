@@ -10,7 +10,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-      <footer className="bg-dark text-white">
+      <footer className="text-white footer">
        <Router>
         <div className="container py-4 py-xl-5">
             <div className="row">
