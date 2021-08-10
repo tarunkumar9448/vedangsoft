@@ -1,0 +1,10 @@
+.technology-box{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #fff;
+    height: 170px;
+    display: flex;
+}
+.technology-box:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.04);
+}

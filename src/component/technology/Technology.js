@@ -20,52 +20,52 @@ function Technology() {
             <div className="row align-itens-center g-5 row-cols-5">
                 <div className="col">
                     <div className="technology-box react">
-                        <img src={react} className="mx-auto" alt="logo" />
+                        <img src={react} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box node">
-                        <img src={node} className="mx-auto" alt="logo" />
+                        <img src={node} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box net">
-                        <img src={net} className="mx-auto" alt="logo" />
+                        <img src={net} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box sql">
-                        <img src={sql} className="mx-auto" alt="logo" />
+                        <img src={sql} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box mongo">
-                        <img src={mongo} className="mx-auto" alt="logo" />
+                        <img src={mongo} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box java">
-                        <img src={java} className="mx-auto" alt="logo" />
+                        <img src={java} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box php">
-                        <img src={php} className="mx-auto" alt="logo" />
+                        <img src={php} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box anguler">
-                        <img src={anguler} className="mx-auto" alt="logo" />
+                        <img src={anguler} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box aws">
-                        <img src={aws} className="mx-auto" alt="logo" />
+                        <img src={aws} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
                     <div className="technology-box sass">
-                        <img src={sass} className="mx-auto" alt="logo" />
+                        <img src={sass} className="m-auto" alt="" />
                     </div>
                 </div>
             </div>
