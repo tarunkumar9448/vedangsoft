@@ -1,4 +1,4 @@
-import banner from '../../assets/images/banner.png';
+//import banner from '../../assets/images/banner.png';
 import './Customer.css';
 
 function Customer() {

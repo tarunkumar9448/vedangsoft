@@ -25,9 +25,9 @@ class Client extends Component {
       return (
           <section className="client py-5">
             <div className="container text-center">
-                <p>Our Clients</p>
-                <h2>Our Special Clients</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="smallText">Our Clients</p>
+                <h2 className="section-heading">Our Special Clients</h2>
+                <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           <OwlCarousel className='owl-theme' loop margin={40} dots lazyLoad responsive={this.state.responsive} autoplay smartSpeed={1000}>
                 <div className="client-box">

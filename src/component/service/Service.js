@@ -25,9 +25,9 @@ class Service extends Component {
       return (
           <section className="service">
             <div className="container py-5 text-center">
-                <p>Our Services</p>
-                <h2>Digital IT Services And Quality of Development</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="smallText">Our Services</p>
+                <h2 className="section-heading">Digital IT Services And Quality of Development</h2>
+                <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 
                 <OwlCarousel className='owl-theme' loop margin={40} dots lazyLoad responsive={this.state.responsive} autoplay smartSpeed={1000}>
                     <div className="service-box">

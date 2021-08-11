@@ -1,5 +1,4 @@
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import { RiPhoneFill } from 'react-icons/ri';
+import {BrowserRouter as Router, Link} from "react-router-dom";
 import { RiFacebookFill } from 'react-icons/ri';
 import { RiTwitterFill } from 'react-icons/ri';
 import { RiInstagramFill } from 'react-icons/ri';
@@ -15,8 +14,8 @@ function Footer() {
         <div className="container py-4 py-xl-5">
             <div className="row">
                 <div className="col-md-6 col-xl-3">
-                    <h4>About Us</h4>
-                    <p>
+                    <h4 className="text-white">About Us</h4>
+                    <p className="text-white">
                         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
                     </p>
                     <ul className="list-unstyled d-flex align-items-center m-0">
@@ -41,7 +40,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-md-6 col-xl-3">
-                    <h4>Explore Our SIte</h4>
+                    <h4 className="text-white">Explore Our SIte</h4>
                     <ul className="list-unstyled">
                         <li>
                             <Link className="text-white" to="/">Home</Link>
@@ -64,7 +63,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-md-6 col-xl-3">
-                    <h4>Latest News</h4>
+                    <h4 className="text-white">Latest News</h4>
                     <ul className="list-unstyled">
                         <li>
                           <Link className="text-white" to="/career">Hiring Now</Link>
@@ -75,7 +74,7 @@ function Footer() {
                       </ul>
                 </div>
                 <div className="col-md-6 col-xl-3">                    
-                    <h4>Contact Us</h4>
+                    <h4 className="text-white">Contact Us</h4>
                     <ul className="list-unstyled">
                         <li>
                             <strong>VedangSoft,</strong><br/>2524, C-2, Vasant Kunj,<br/>New Delhi-110070

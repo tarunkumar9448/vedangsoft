@@ -14,10 +14,10 @@ function Technology() {
   return (
        <section className="technology">
         <div className="container py-5 text-center">
-            <p>Our Technology</p>
-            <h2>Our Latest Technologies</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <div className="row align-itens-center g-5 row-cols-5">
+            <p className="smallText">Our Technology</p>
+            <h2 className="section-heading">Our Latest Technologies</h2>
+            <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div className="row align-itens-center g-4 row-cols-2 row-cols-md-3  row-cols-lg-4 row-cols-xl-5 g-xl-5">
                 <div className="col">
                     <div className="technology-box react">
                         <img src={react} className="m-auto" alt="" />

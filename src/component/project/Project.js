@@ -26,9 +26,9 @@ class Project extends Component {
       return (
         <section className="project bg-light py-5">
             <div className="container text-center">
-                <p>Our Project</p>
-                <h2>Look At Our Some Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="smallText">Our Project</p>
+                <h2 className="section-heading">Look At Our Some Projects</h2>
+                <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
             <OwlCarousel className='owl-theme' loop margin={0} dots lazyLoad responsive={this.state.responsive} autoplay smartSpeed={1000}>
                 <div className="project-box">

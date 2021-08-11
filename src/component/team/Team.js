@@ -12,9 +12,9 @@ function Team() {
   return (
       <section className="team pt-5">
         <div className="container text-center">
-            <p>Our Team</p>
-            <h2>Peoples Behind VedangSoft</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p className="smallText">Our Team</p>
+            <h2 className="section-heading">Peoples Behind VedangSoft</h2>
+            <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             <div className="row align-itens-center row-cols-7">
                 <div className="col team-face active">
                     <img src={face7} className="App-logo" alt="logo" />

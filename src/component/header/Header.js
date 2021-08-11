@@ -24,28 +24,28 @@ function Header() {
                     <div className="col-6">
                         <p className="d-flex align-items-center text-white m-0">
                             <span className="d-none d-md-inline-block">Suport : </span>
-                            <a className="text-white ms-1" href="tel:+91-9876543210"><RiPhoneFill className="d-md-none"/> <small>+91-98765 43210</small></a>
+                            <a className="text-white ms-md-1" href="tel:+91-9876543210"><RiPhoneFill className="d-md-none"/> <small>+91-98765 43210</small></a>
                         </p>
                     </div>
                     <div className="col-6">
-                        <ul className="list-unstyled d-flex align-items-center justify-content-end m-0">
+                        <ul className="list-unstyled d-flex align-items-center justify-content-end m-0 icons">
                             <li>
-                                <a className="text-white mx-1" href="https://www.facebook.com/" target="_blank"><RiFacebookFill /></a>
+                                <a className="text-white" href="https://www.facebook.com/" target="_blank"><RiFacebookFill /></a>
                             </li>
                             <li>
-                                <a className="text-white mx-1" href="https://twitter.com/" target="_blank"><RiTwitterFill /></a>
+                                <a className="text-white" href="https://twitter.com/" target="_blank"><RiTwitterFill /></a>
                             </li>
                             <li>
-                                <a className="text-white mx-1" href="https://www.instagram.com/" target="_blank"><RiInstagramFill /></a>
+                                <a className="text-white" href="https://www.instagram.com/" target="_blank"><RiInstagramFill /></a>
                             </li>
                             <li>
-                                <a className="text-white mx-1" href="https://in.linkedin.com/" target="_blank"><RiLinkedinBoxFill /></a>
+                                <a className="text-white" href="https://in.linkedin.com/" target="_blank"><RiLinkedinBoxFill /></a>
                             </li>
                             <li>
-                                <a className="text-white mx-1" href="https://www.youtube.com/" target="_blank"><RiYoutubeFill /></a>
+                                <a className="text-white" href="https://www.youtube.com/" target="_blank"><RiYoutubeFill /></a>
                             </li>
                             <li>
-                                <a className="text-white mx-1" href="whatsapp://send?text=Hello World!&phone=+919876543210" target="_blank"><RiWhatsappFill /></a>
+                                <a className="text-white" href="whatsapp://send?text=Hello World!&phone=+919876543210" target="_blank"><RiWhatsappFill /></a>
                             </li>
                         </ul>
                     </div>
@@ -56,10 +56,10 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
             <Link className="navbar-brand" to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse" id="navBar">
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                     <Link className="nav-link active" to="/">Home</Link>

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import jQuery from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/js/src/collapse.js";
 import 'owl.carousel/dist/assets/owl.carousel.css';
+import './assets/font/Tahoma/stylesheet.css';
 import './index.css';
 import Header from './component/header/Header';
-import Home from './pages/home/Home';
 import Footer from './component/footer/Footer';
 import reportWebVitals from './reportWebVitals';
 

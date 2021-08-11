@@ -7,13 +7,13 @@ class Subscribe extends Component {
             <div className="container text-center text-md-start">
                 <div className="row align-items-center">
                     <div className="col-md-6 col-xl-5">
-                        <h2>Subscribe To Our List</h2>
+                        <h2 className="section-heading text-white">Subscribe To Our List</h2>
                     </div>
                     <div className="col-md-6 text-md-end col-xl-7">
                       <form>
                         <div className="row align-items-center">
-                            <div className="col-md-4"><input type="text" name="name" className="form-control rounded" placeholder="Full Name"/></div>
-                            <div className="col-md-4"><input type="email" name="email" className="form-control rounded" placeholder="Email Address"/></div>
+                            <div className="col-md-4"><input type="text" name="name" className="form-control input-rounded px-4" placeholder="Full Name"/></div>
+                            <div className="col-md-4"><input type="email" name="email" className="form-control input-rounded px-4" placeholder="Email Address"/></div>
                             <div className="col-md-4"><button type="submit" className="d-block w-100 btn btn-warning btn-rounded">Subscribe</button></div>
                         </div>
                       </form>

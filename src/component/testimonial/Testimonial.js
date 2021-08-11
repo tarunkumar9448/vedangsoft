@@ -24,11 +24,11 @@ class Testimonial extends Component {
       return (
            <section className="testimonial py-5">
             <div className="container text-center">
-                <p>Our Clients Says</p>
-                <h2>Clients Testimonials</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p className="smallText">Our Clients Says</p>
+                <h2 className="section-heading">Clients Testimonials</h2>
+                <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 <OwlCarousel className='owl-theme' loop margin={0} dots lazyLoad responsive={this.state.responsive} autoplay smartSpeed={1000}>
-                  <div className="testimonial p-4 border rounded mt-5">
+                  <div className="testimonial p-4 border rounded">
                     <div className="row align-items-center">
                         <div className="col-md-4">
                              <img src={testi1} className="App-logo" alt="logo" />
