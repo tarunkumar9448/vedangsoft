@@ -16,26 +16,40 @@ function Team() {
             <h2 className="section-heading">Peoples Behind VedangSoft</h2>
             <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             <div className="row align-itens-center row-cols-7">
-                <div className="col team-face active">
-                    <img src={face7} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect active">
+                        <img src={face7} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face6} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face6} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face5} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face5} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face4} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face4} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face3} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face3} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face2} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face2} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
-                <div className="col team-face active">
-                    <img src={face1} className="App-logo" alt="logo" />
+                <div className="col">
+                    <div className="team-face animation-effect">
+                        <img src={face1} className="rounded-cricle" alt="logo" />
+                    </div>
                 </div>
             </div>
               <div className="row align-items-end text-md-start">

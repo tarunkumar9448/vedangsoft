@@ -29,6 +29,12 @@ p{
 a{
     text-decoration: none;
 }
+.animation-effect{
+-webkit-transition: all .5s ease-out;
+-moz-transition: all .5s ease-out;
+-ms-transition: all .5s ease-out;
+}
+
 .btn,
 .btn:hover,
 .btn:focus{

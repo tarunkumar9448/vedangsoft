@@ -19,52 +19,52 @@ function Technology() {
             <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             <div className="row align-itens-center g-4 row-cols-2 row-cols-md-3  row-cols-lg-4 row-cols-xl-5 g-xl-5">
                 <div className="col">
-                    <div className="technology-box react">
+                    <div className="technology-box animation-effect react">
                         <img src={react} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box node">
+                    <div className="technology-box animation-effect node">
                         <img src={node} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box net">
+                    <div className="technology-box animation-effect net">
                         <img src={net} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box sql">
+                    <div className="technology-box animation-effect sql">
                         <img src={sql} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box mongo">
+                    <div className="technology-box animation-effect mongo">
                         <img src={mongo} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box java">
+                    <div className="technology-box animation-effect java">
                         <img src={java} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box php">
+                    <div className="technology-box animation-effect php">
                         <img src={php} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box anguler">
+                    <div className="technology-box animation-effect anguler">
                         <img src={anguler} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box aws">
+                    <div className="technology-box animation-effect aws">
                         <img src={aws} className="m-auto" alt="" />
                     </div>
                 </div>
                 <div className="col">
-                    <div className="technology-box sass">
+                    <div className="technology-box animation-effect sass">
                         <img src={sass} className="m-auto" alt="" />
                     </div>
                 </div>

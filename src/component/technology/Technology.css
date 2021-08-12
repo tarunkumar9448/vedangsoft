@@ -5,6 +5,43 @@
     height: 170px;
     display: flex;
 }
-.technology-box:hover{
-    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.04);
+.technology-box.react:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0,191,243,0.04);
+    border: 1px solid #00bff3;
+}
+.technology-box.node:hover{
+    box-shadow: 0px 0px 20px 20px rgba(65,144,59,0.04);
+    border: 1px solid #41903b;
+}
+.technology-box.net:hover{
+    box-shadow: 0px 0px 20px 20px rgba(70,70,70,0.04);
+    border: 1px solid #464646;
+}
+.technology-box.sql:hover{
+    box-shadow: 0px 0px 20px 20px rgba(255,149,33,0.04);
+    border: 1px solid #ffc221;
+}
+.technology-box.mongo:hover{
+    box-shadow: 0px 0px 20px 20px rgba(112,186,101,0.04);
+    border: 1px solid #7aba65;
+}
+.technology-box.java:hover{
+    box-shadow: 0px 0px 20px 20px rgba(229,61,63,0.04);
+    border: 1px solid #e53d3f;
+}
+.technology-box.php:hover{
+    box-shadow: 0px 0px 20px 20px rgba(137,147,190,0.04);
+    border: 1px solid #8993be;
+}
+.technology-box.anguler:hover{
+    box-shadow: 0px 0px 20px 20px rgba(195,14,46,0.04);
+    border: 1px solid #c30e2e;
+}
+.technology-box.aws:hover{
+    box-shadow: 0px 0px 20px 20px rgba(255,145,0,0.04);
+    border: 1px solid #ff9100;
+}
+.technology-box.sass:hover{
+    box-shadow: 0px 0px 20px 20px rgba(205,103,153,0.04);
+    border: 1px solid #cd6799;
 }
