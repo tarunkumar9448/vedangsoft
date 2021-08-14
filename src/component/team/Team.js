@@ -1,3 +1,4 @@
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import fullimg7 from '../../assets/images/fullimg-7.png';
 import face1 from '../../assets/images/face-1.png';
 import face2 from '../../assets/images/face-2.png';
@@ -15,43 +16,53 @@ function Team() {
             <p className="smallText">Our Team</p>
             <h2 className="section-heading">Peoples Behind VedangSoft</h2>
             <p className="section-heading-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <div className="row align-itens-center row-cols-7">
-                <div className="col">
+            
+            <Tabs>
+                <TabList className="row align-itens-center row-cols-7">
+      
+                <Tab className="col">
                     <div className="team-face animation-effect active">
                         <img src={face7} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face6} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face5} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face4} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face3} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face2} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-                <div className="col">
+                </Tab>
+      
+                <Tab className="col">
                     <div className="team-face animation-effect">
                         <img src={face1} className="rounded-cricle" alt="logo" />
                     </div>
-                </div>
-            </div>
+                </Tab>
+            </TabList>
+            <TabPanel>
               <div className="row align-items-end text-md-start">
                 <div className="col-md-4">
                     <img src={fullimg7} className="App-logo" alt="logo" />
@@ -61,8 +72,76 @@ function Team() {
                     <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
                 </div>
               </div>
-        </div>
-      </section>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr. 2<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr.3<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr. 4<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr. 5<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr. 6<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="row align-items-end text-md-start">
+                <div className="col-md-4">
+                    <img src={fullimg7} className="App-logo" alt="logo" />
+                </div>
+                <div className="col-md-8 mb-5">
+                    <h3>Mr. 7<small className="d-block">Promoter & CEO VedangSoft Pvt. Ltd.</small></h3>
+                    <p>More than Three Decades of experience in Oil & Gas Industry (Upstream, Midstream, Downstream). Worked in leadership role with Reliance, ONGC, ONGC Videsh , GNPOC JV of ONGC Videsh , CNPOC China, PETRONAS Malaysia ,Sudapet Sudan , Exxon Mobile USA . BP UK, & Petro Vietnam. Handled multi million dollars IT, Organization change management and Business transformation projects. Instrumental in creating more than 20 Software IP’s for Oil & Gas vertical and E- Governance. Sudhir is Engineering Graduate & MBA</p>
+                </div>
+              </div>
+            </TabPanel>
+        </Tabs>
+    </div>
+</section>
   );
 }
 

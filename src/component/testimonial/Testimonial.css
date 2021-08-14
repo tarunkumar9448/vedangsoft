@@ -4,3 +4,19 @@
     background-position: top left;
     background-repeat: no-repeat;
 }
+.testimonial{
+    border-radius: 1rem;
+}
+.testi-text h4{
+    color:#0071dc;
+    margin-top: 25px;
+    font-size: 1.4rem;
+}
+.testi-text h4 small{
+    color:#4c4c4c;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
