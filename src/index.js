@@ -5,14 +5,13 @@ import "bootstrap/js/src/collapse.js";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import './assets/font/Tahoma/stylesheet.css';
 import './index.css';
-import Header from './component/header/Header';
-import Footer from './component/footer/Footer';
+import Main from './component/main/Main';
+//import Footer from './component/footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Footer />    
+    <Main /> 
   </React.StrictMode>,
   document.getElementById('root')
 );

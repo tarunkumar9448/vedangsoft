@@ -22,8 +22,8 @@ function Home() {
                             <h1>Digital IT Services And Quality of  Development</h1>
                             <p>Uses various innovative technologies that make your work with it not only easier but more productive without unnecessary coding.</p>
                             <div className="d-flex mt-4 justify-content-center justify-content-md-start">
-                                <a href="#" className="btn btn-rounded btn-primary me-3 px-4">Learn More</a>
-                                <a href="#" className="btn btn-rounded btn-warning px-4">Get A Quote</a>
+                                <a href="link" className="btn btn-rounded btn-primary me-3 px-4">Learn More</a>
+                                <a href="link" className="btn btn-rounded btn-warning px-4">Get A Quote</a>
                             </div>
                         </div>
                     </div>

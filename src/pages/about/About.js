@@ -1,9 +1,15 @@
 //import banner from '../../assets/images/banner.png';
+import Testimonial from '../../component/testimonial/Testimonial';
+import Subscribe from '../../component/subscribe/Subscribe';
 import './About.css';
 
 function About() {
   return (
-        <h1>About</h1>
+      <div>
+        <h1 className="text-center">About</h1>
+        <Testimonial />  
+        <Subscribe />
+      </div>
         
   );
 }

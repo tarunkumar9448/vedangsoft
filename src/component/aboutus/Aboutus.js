@@ -11,7 +11,7 @@ function Aboutus() {
                     <p className="smallText text-white">About Us</p>
                     <h2 className="section-heading text-white">Digital IT Services And Quality of  Development</h2>
                     <p className="text-white">VedangSoft  is promoted by Oil & Gas leadership and practitioners team, comprises of Ex Head of Oil & Gas Business and ex-CIOs of ONGC, ONGC Videsh Reliance, Texaco, Exxon Mobile, BP and Boeing USA and executed some of the largest Change Management, Organization Transformation, Digital Oilfield and Systems  implementation programs in Asia pacific and other part of Globe.</p>
-                    <a href="#" className="btn btn-rounded btn-info px-4">Learn More</a>
+                    <a href="link" className="btn btn-rounded btn-info px-4">Learn More</a>
                 </div>
             </div>
         </div>
